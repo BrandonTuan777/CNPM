@@ -25,9 +25,6 @@ if (!isset($_SESSION['username'])) {
             <!-- ul>li*5>a -->
             <ul>
                 <li><a href="#">TRANG CHỦ</a></li>
-                <li><a href="#">GIỚI THIỆU</a></li>
-                <li><a href="#">SẢN PHẨM</a></li>
-                <li><a href="#">TIN TỨC</a></li>
                 <li><a href="#">LIÊN HỆ</a></li>
                 <li class="nav-item logout">
                             <a class="nav-link" href="./logout.php">
@@ -87,7 +84,7 @@ if (!isset($_SESSION['username'])) {
         <!-- #products -->
         <!-- products  -->
         <div class="products">
-            <h2>CÁC SẢN PHẨM BÁN CHẠY</h2>
+            <h2>CÁC PHÒNG HOT</h2>
             <!-- BEM -->
             <div class="products__content">
 
@@ -98,7 +95,7 @@ if (!isset($_SESSION['username'])) {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam qui deserunt molestias magnam veniam voluptas fugiat veritatis? Voluptatibus aliquid obcaecati non possimus soluta, omnis fugit explicabo, labore, quibusdam fugiat
                         eum.
                     </p>
-                    <button>Chi tiết</button>
+                   
                 </div>
                 <!-- item2 -->
                 <div class="products__item">
@@ -107,7 +104,7 @@ if (!isset($_SESSION['username'])) {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam qui deserunt molestias magnam veniam voluptas fugiat veritatis? Voluptatibus aliquid obcaecati non possimus soluta, omnis fugit explicabo, labore, quibusdam fugiat
                         eum.
                     </p>
-                    <button>Chi tiết</button>
+                    
                 </div>
                 <!-- item3 -->
                 <div class="products__item">
@@ -116,7 +113,7 @@ if (!isset($_SESSION['username'])) {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam qui deserunt molestias magnam veniam voluptas fugiat veritatis? Voluptatibus aliquid obcaecati non possimus soluta, omnis fugit explicabo, labore, quibusdam fugiat
                         eum.
                     </p>
-                    <button>Chi tiết</button>
+                    
                 </div>
                 <!-- item4 -->
                 <div class="products__item">
@@ -125,7 +122,7 @@ if (!isset($_SESSION['username'])) {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam qui deserunt molestias magnam veniam voluptas fugiat veritatis? Voluptatibus aliquid obcaecati non possimus soluta, omnis fugit explicabo, labore, quibusdam fugiat
                         eum.
                     </p>
-                    <button>Chi tiết</button>
+                    
                 </div>
 
             </div>
