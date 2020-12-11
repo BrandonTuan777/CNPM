@@ -18,7 +18,7 @@
 
 		$id = $_POST["id"];
 		// Viết câu lệnh cập nhật thông tin người dùng
-		$sql = "UPDATE users SET fullname = '$name', email = '$email', permision = '$permission',phone ='$phone', is_block = '$is_block' WHERE id=$id";
+		$sql = "UPDATE users SET fullname = '$name', email = '$email', 'permision' = '$permission',phone ='$phone', is_block = '$is_block' WHERE id=$id";
 		// thực thi câu $sql với biến conn lấy từ file connection.php
 		mysqli_query($conn,$sql);
 		header('Location: quan-ly-thanh-vien.php');
