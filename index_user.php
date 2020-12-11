@@ -25,13 +25,14 @@ if (!isset($_SESSION['username'])) {
             <!-- ul>li*5>a -->
             <ul>
                 <li><a href="#">TRANG CHỦ</a></li>
-                <li><a href="#">LIÊN HỆ</a></li>
+                <li><a href="./lien_he.html">LIÊN HỆ</a></li>
+                
+                <li><a href="./dang-ky-room.php">ĐĂNG KÝ PHÒNG</a></li>
                 <li class="nav-item logout">
                             <a class="nav-link" href="./logout.php">
                                 LOG OUT
                             </a>
                 </li>
-                <li><a href="./dang-ky-room.php">ĐĂNG KÝ PHÒNG</a></li>
             </ul>
         </div>
 
@@ -135,8 +136,8 @@ if (!isset($_SESSION['username'])) {
             <div class="banner__circle">
 
                 <p>SALE OFF</p>
-                <P>50%</P>
-                <P>Các sản phẩm sofa</P>
+                <P>25%</P>
+                <P>Các phòng </P>
                 <p>trong tháng 7</p>
 
             </div>
