@@ -5,14 +5,14 @@
 <?php include("permission.php");?>
 
 <?php
-	$sql = "SELECT * FROM room";
+	$sql = "SELECT * FROM orderbill";
 	$query = mysqli_query($conn,$sql);
 ?>
 
 <!-- Xóa người dùng -->
 <?php
 	if (isset($_GET["id_delete"])) {
-		$sql = "DELETE FROM room WHERE id = ".$_GET["id_delete"];
+		$sql = "DELETE FROM orderbill WHERE id = ".$_GET["id_delete"];
         mysqli_query($conn,$sql);
         header('Location: quan-ly-room.php');
 	}

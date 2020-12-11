@@ -26,7 +26,7 @@ if (!isset($_SESSION['username'])) {
 			echo "bạn vui lòng nhập đầy đủ thông tin";
 		}else{
 			
-			 $sql = "INSERT INTO room(username, email, phone, num_people,type_room, service , createdate ) VALUES ( '$username', '$email', '$phone','$num_people','$type_room','$service', now())";
+			 $sql = "INSERT INTO orderbill(username, email, phone, num_people,type_room, service , createdate ) VALUES ( '$username', '$email', '$phone','$num_people','$type_room','$service', now())";
 			
 			
 			// thực thi câu $sql với biến conn lấy từ file connection.php
@@ -64,22 +64,26 @@ if (!isset($_SESSION['username'])) {
         <div class="form-group">
         <div>Lựa chọn loại phòng:</div>
 					<input type="radio" id="type_room" name="type_room" value="STD">
-					<label for="STD">STD(phòng tiêu chuẩn)</label><br>
+					<label for="STD">STD(phòng tiêu chuẩn)_150$</label><br>
 					<input type="radio" id="type_room" name="type_room" value="SUP">
-					<label for="SUP">SUP(phòng chất lượng cao)</label><br>
+					<label for="SUP">SUP(phòng chất lượng cao)_300$</label><br>
                     <input type="radio" id="type_room" name="type_room" value="DLX">
-					<label for="DLX">DLX(phòng view đẹp)</label><br>
+					<label for="DLX">DLX(phòng view đẹp)_450$</label><br>
                     <input type="radio" id="type_room" name="type_room" value="SUT">
-					<label for="SUT">Phòng cao cấp nhất</label><br>					
+					<label for="SUT">Phòng cao cấp nhất_600$</label><br>					
 		</div>
         <div>Lựa chọn dịch vụ đính kèm:</div>
 					<input type="radio" id="service" name="service" value="SPA">
-					<label for="SPA">SPA</label><br>
+					<label for="SPA">SPA_50$</label><br>
 					<input type="radio" id="service" name="service" value="GYM">
-					<label for="GYM">GYM</label><br>
+					<label for="GYM">GYM_45$</label><br>
                     <input type="radio" id="service" name="service" value="FOOD">
-					<label for="FOOD">FOOD</label><br>
+					<label for="FOOD">FOOD_25$</label><br>
                     		
+		</div>
+		<div>
+			<h3>Ghi chú:</h3>	
+			<p>Sau khi đăng ký sẽ có nhân viên gọi điện cho bạn xác nhận:</p>	
 		</div>
 		
 

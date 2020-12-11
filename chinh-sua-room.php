@@ -18,7 +18,7 @@
 
 		$id = $_POST["id"];
 		// Viết câu lệnh cập nhật thông tin người dùng
-		$sql = "UPDATE room SET username = '$name', email = '$email',num_people ='$num_people', type_room = '$type_room',service='$service' WHERE id=$id";
+		$sql = "UPDATE orderbill SET username = '$name', email = '$email',num_people ='$num_people', type_room = '$type_room',service='$service' WHERE id=$id";
 		// thực thi câu $sql với biến conn lấy từ file connection.php
 		mysqli_query($conn,$sql);
 		header('Location: quan-ly-room.php');
@@ -28,7 +28,7 @@
 	if (isset($_GET['id'])) {
 		$id = $_GET['id'];
 	}
-	$sql = "SELECT * FROM room WHERE id = ".$id;
+	$sql = "SELECT * FROM orderbill WHERE id = ".$id;
 	$query = mysqli_query($conn,$sql);
 
 	function make_permission_dropdown($id){
