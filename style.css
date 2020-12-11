@@ -1,0 +1,369 @@
+/* Main */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ĐĂNG NHẬP */
+
+
+/* trang quan li  */
+
+
+/* QUẢN LÍ THÀNH VIÊN  */
+
+.body_control {
+    background-color: whitesmoke;
+}
+
+.add_member {
+    color: red;
+    font-size: 20px;
+}
+
+.member_table td {
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+
+/* ĐĂNG KÝ */
+
+.body_create {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.btn_create {
+    text-align: center;
+}
+
+
+/* MAIN */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #29303b;
+    font-weight: normal;
+}
+
+header {
+    font-size: 13px;
+    color: #505763;
+    font-weight: normal;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__left p {
+    display: inline;
+    padding-left: 10px;
+    font-size: 25px;
+    color: red;
+}
+
+.header__left .navbar-brand img {
+    width: 50px;
+}
+
+.header__left .header__form {
+    flex-grow: 2;
+    margin-left: 20px;
+}
+
+.header__right .nav-link {
+    font-size: 20px;
+    color: #505763;
+    font-weight: normal;
+}
+
+.header__right {
+    font-size: 20px;
+    font-weight: normal;
+    float: right;
+}
+
+.header__right .nav-item {
+    padding: 0 20px;
+}
+
+.header__right img {
+    width: 30px;
+}
+
+.nav-item {
+    border-radius: 50%;
+    padding: 12px 0;
+    width: 45px;
+}
+
+.sources .cell {
+    text-align: center;
+    margin: 30px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 8px 2px rgb(0, 0, 0, 0.2);
+    transition: 0.2;
+}
+
+.sources .cell img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.sources .cell .user-info .className {
+    margin-top: 8px;
+    font-weight: bold;
+    display: block;
+}
+
+.sources .cell .user-info span {
+    text-align: left;
+    display: block;
+}
+
+.sources .cell .user-info .position {
+    font-size: 13px;
+}
+
+.sources .cell:hover {
+    box-shadow: 4px 12px 15px 2px rgb(0, 0, 0, 0.2);
+    border: 1px solid black;
+}
+
+.header__right .modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.creatClass .col-25 {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+}
+
+.creatClass .col-50 {
+    -ms-flex: 50%;
+    /* IE10 */
+    flex: 50%;
+}
+
+.creatClass .col-75 {
+    -ms-flex: 75%;
+    /* IE10 */
+    flex: 75%;
+}
+
+.creatClass .col-25,
+.creatClass .col-50,
+.creatClass .col-75 {
+    padding: 0 16px;
+}
+
+.creatClass .container {
+    background-color: #f2f2f2;
+    padding: 5px 25px 55px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.creatClass label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.creatClass button {
+    float: right;
+    margin: 0 10px;
+}
+
+.creatClass h3 {
+    color: rgba(92, 47, 255, 0.719);
+}
+
+.creatClass {
+    padding-top: 50px;
+}
+
+.sources .classCard {
+    padding: 5px;
+}
+
+.sources .settings {
+    font-size: 25px;
+    flex-direction: row-reverse;
+}
+
+.color {
+    background-color: aqua;
+    color: red;
+    font-size: 50px;
+}
+
+.panel-shadow {
+    box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+
+.panel-white {
+    border: 1px solid #dddddd;
+}
+
+.panel-white .panel-heading {
+    color: #333;
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+.panel-white .panel-footer {
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+.post .post-heading {
+    height: 95px;
+    padding: 20px 15px;
+}
+
+.post .post-heading .avatar {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-right: 15px;
+}
+
+.post .post-heading .meta .title {
+    margin-bottom: 0;
+}
+
+.post .post-heading .meta .title a {
+    color: black;
+}
+
+.post .post-heading .meta .title a:hover {
+    color: #aaaaaa;
+}
+
+.post .post-heading .meta .time {
+    margin-top: 8px;
+    color: #999;
+}
+
+.post .post-image .image {
+    width: 100%;
+    height: auto;
+}
+
+.post .post-description {
+    padding: 15px;
+}
+
+.post .post-description p {
+    font-size: 14px;
+}
+
+.post .post-description .stats {
+    margin-top: 20px;
+}
+
+.post .post-description .stats .stat-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.post .post-description .stats .stat-item .icon {
+    margin-right: 8px;
+}
+
+.post .post-footer {
+    border-top: 1px solid #ddd;
+    padding: 15px;
+}
+
+.post .post-footer .input-group-addon a {
+    color: #454545;
+}
+
+.post .post-footer .comments-list {
+    padding: 0;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.post .post-footer .comments-list .comment {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.post .post-footer .comments-list .comment .avatar {
+    width: 35px;
+    height: 35px;
+}
+
+.post .post-footer .comments-list .comment .comment-heading {
+    display: block;
+    width: 100%;
+}
+
+.post .post-footer .comments-list .comment .comment-heading .user {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.post .post-footer .comments-list .comment .comment-heading .time {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 0;
+    display: inline;
+}
+
+.post .post-footer .comments-list .comment .comment-body {
+    margin-left: 50px;
+}
+
+.post .post-footer .comments-list .comment>.comments-list {
+    margin-left: 50px;
+}
